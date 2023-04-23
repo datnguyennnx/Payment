@@ -7,18 +7,26 @@ body {
   background-color: rgba(240,231,219, .75)
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   #page-wrap {
       text-align: center;
-      width: 1536px;
+      width: 1000px;
       margin: 0 auto;
      }
 }
 
-@media screen and (min-width: 1536px) {
+@media screen and (min-width: 1280px) {
   #page-wrap {
       text-align: center;
-      width: 1600px;
+      width: 1300px;
+      margin: 0 auto;
+     }
+}
+
+@media screen and (min-width: 1550px) {
+  #page-wrap {
+      text-align: center;
+      width: 1450px;
       margin: 0 auto;
   }
 }
