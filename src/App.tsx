@@ -1,16 +1,16 @@
 import { useState } from 'react'
-
+import { Header } from './components/Header'
+import { Information } from './components/Information'
+import { Form } from './components/Form'
+import { Footer } from './components/Footer'
 function App() {
 
   return (
     <div className="App">
-      <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
-        <p className="text-lg font-medium">
-        “Tailwind CSS is the only framework that I've seen scale
-        on large teams. It’s easy to customize, adapts to any design,
-        and the build size is tiny.”
-        </p>
-      </div>
+      <Header />
+      <Information />  
+      <Form />
+      <Footer />
     </div>
   )
 }
