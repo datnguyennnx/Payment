@@ -5,19 +5,17 @@ export function Header () {
     
     return (
     <header> 
-        <div className='flex h-16 w-auto  
-                    pr-4 pl-4 md:pr-24 md:pl-24  lg:pr-32 lg:pl-32
-                    justify-between '> 
+        <div className='flex h-16 w-auto justify-between mx-2'> 
             <div className="flex flex-row">
-                <CiCoffeeCup className='h-12 w-12 self-center'/>
+                <CiCoffeeCup className='h-8 w-8 lg:h-12 lg:w-12 self-center'/>
                 <div className="self-center ">
-                    <a href="#" className=" mr-2 text-2xl font-bold"> Ask me question </a>
+                    <a href="#" className=" mx-1 text-lg lg:mr-2 lg:text-xl font-bold"> Ask me question </a>
                 </div>
                 <div className="self-center mt-6 ml-4">
-                    <a href="https://github.com/datnguyennnx/Payment" className=" text-xl pr-2 font-bold">
+                    <a href="https://github.com/datnguyennnx/Payment" className="pr-2 ">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-8 w-8"
+                            className="h-6 w-6 lg:h-8 lg:w-8"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                                 <path
@@ -25,17 +23,17 @@ export function Header () {
                         </svg>
                     </a>
                 </div>
-                <p  className='flex ml-2 text-2xl font-bold self-center'>
+                <p  className='flex ml-1 text-lg lg:ml-2 lg:text-xl font-bold self-center'>
                     <a href="https://github.com/datnguyennnx/Payment"> Source</a>
                 </p>
             </div>
 
-            <div className="flex flex-row w-auto self-center">
-                <div className=" text-xl pr-2 font-bold">Social Media</div>
-                <a href="https://www.facebook.com/datnguyennnx/" className=" text-xl pr-2 font-bold">
+            <div className="flex flex-row w-auto self-center mt-1">
+                <div className=" ml-1 text-lg lg:ml-2 lg:text-xl pr-2 font-bold my-2">Social Media</div>
+                <a href="https://www.facebook.com/datnguyennnx/" className="pr-2 my-3 lg:my-2">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6"
+                        className="h-4 w-4 lg:h-6 lg:w-6"
                         fill="currentColor"
                         viewBox="0 0 24 24">
                     <path
@@ -44,10 +42,10 @@ export function Header () {
                     </svg>
                 </a>
 
-                <a href="https://www.linkedin.com/in/datnguyennnx/" className=" text-xl pr-2 font-bold">
+                <a href="https://www.linkedin.com/in/datnguyennnx/" className="pr-2 my-3 lg:my-2">
                 <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-6 w-6"
+                        className="h-4 w-4 lg:h-6 lg:w-6"
                         fill="currentColor"
                         viewBox="0 0 24 24">
                     <path
