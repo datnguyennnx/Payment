@@ -23,7 +23,7 @@ export function DonateForm (){
     }
 
     const handleMessageChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
-        return setMessage(textAreaRef.current.value);
+        return setMessage(event.target.value);
       };
 
     const [form, setForm] = useState({
@@ -101,7 +101,7 @@ export function DonateForm (){
 
                             <div className="mr-[1px] ml-[1px] md:mr-2 md:ml-4 self-center">
                                 <input type="inline-radio" name="amount" placeholder="10"
-                                value={amount}  onChange={changeHandler}
+                                value={amount}  onChange={formHandler}
                                 className="pl-2 pr-2 w-12 md:w-14 md:h-10 text-xl border-2 rounded-md" />
                             </div>
                         </div>
@@ -132,7 +132,7 @@ export function DonateForm (){
                         id="message"
                         name="message"
                         value={message}
-                        onChange={changeHandler}></textarea>
+                        onChange={handleMessageChange}></textarea>
                     </div>
 
                     <div className="flex w-auto my-2 mx-8 h-10 border-[1px] border-[#ff7300]
